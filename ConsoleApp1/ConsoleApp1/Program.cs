@@ -7,12 +7,17 @@ namespace ConsoleApp1
     public string firstName;
     public string lastName;
     public int age;
-    
+
     public Person(string _firstName, string _lastName, int _age)
     {
       firstName = _firstName;
       lastName = _lastName;
       age = _age;
+    }
+
+    public override string ToString()
+    {
+      return firstName + " " + lastName + ", age " + age;
     }
   }
 
@@ -20,11 +25,8 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
-      Console.WriteLine("Hello World!");
-      Console.WriteLine("Hello World!");
-      Console.WriteLine("Hello World!");
-      Console.WriteLine("Hello World!");
+      Person p = new Person("Jummy", "The_Boy", 21);
+      Console.WriteLine(p);
     }
   }
 }
