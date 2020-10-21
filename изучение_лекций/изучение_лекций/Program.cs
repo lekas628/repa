@@ -6,10 +6,15 @@ namespace изучение_лекций
     {
         static void Main(string[] args)
         {
-            var hello = "hello world";
-            var c = 32;
-            Console.WriteLine(hello.GetType());
-
+            int x = 10;
+            int z;
+            Sum(x, 15, out z);
+            Console.WriteLine(z);
+        }
+        
+        static void Sum(int x, int y, out int a)
+        {
+            a = x + y;
         }
     }
 }
