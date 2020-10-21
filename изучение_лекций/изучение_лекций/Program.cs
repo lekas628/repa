@@ -6,7 +6,10 @@ namespace изучение_лекций
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var hello = "hello world";
+            var c = 32;
+            Console.WriteLine(hello.GetType());
+
         }
     }
 }
