@@ -103,11 +103,10 @@ namespace Practicum_2
     {
         public static void run()
         {
-            return;
+            return; // выполнено
         }
     }
 }
-
 
 namespace Practicum_3
 {
@@ -165,7 +164,36 @@ namespace Practicum_3
     {
         public static void run()
         {
+            return; // выполнено в другом файле
+        }
+    }
+}
 
+namespace Practicum_4
+{
+    class task_1
+    {
+        public static void run()
+        {
+            Int16 i16 = 1;
+            Int32 i32 = 1;
+            double db = 1;
+
+            Console.WriteLine($"{i16}, {i32}, {db}");
+            //i16 = i32;
+            //i16 = db;
+            //i32 = i16;
+            //i32 = db;
+            //db = i16;
+            //db = i32;
+        }
+    }
+
+    class task_2
+    {
+        public static void run()
+        {
+            return; // сделал
         }
     }
 }
