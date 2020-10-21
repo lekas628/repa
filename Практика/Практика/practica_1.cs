@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Practicum_1
+namespace Practicum_1_1
 {
     public class task_1
     {
@@ -60,7 +60,7 @@ namespace Practicum_1
     }
 }
 
-namespace Practicum_2
+namespace Practicum_1_2
 {
     class task_1
     {
@@ -108,7 +108,7 @@ namespace Practicum_2
     }
 }
 
-namespace Practicum_3
+namespace Practicum_1_3
 {
     class task_1
     {
@@ -169,7 +169,7 @@ namespace Practicum_3
     }
 }
 
-namespace Practicum_4
+namespace Practicum_1_4
 {
     class task_1
     {
