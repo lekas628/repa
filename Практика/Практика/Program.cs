@@ -1,5 +1,4 @@
 ﻿using System;
-using Practicum_1;
 
 namespace main_namespace
 {
@@ -7,17 +6,29 @@ namespace main_namespace
     {
         static void Main(string[] args)
         {
-            //Practicum_1.task_1.run();
-            //Practicum_1.task_2.run();
+            //run_practica_1();
+            run_practica_2();
+        }
 
-            //Practicum_2.task_1.run();
-            //Practicum_2.task_2.run();
-            //Practicum_2.task_3.run();
+        static void run_practica_1()
+        {
+            Practicum_1_1.task_1.run();
+            Practicum_1_1.task_2.run();
 
-            //Practicum_3.task_1.run();
-                
-            //Practicum_4.task_1.run()
-            //Practicum_4.task_2.run()
+            Practicum_1_2.task_1.run();
+            Practicum_1_2.task_2.run();
+            Practicum_1_2.task_3.run();
+
+            Practicum_1_3.task_1.run();
+
+            Practicum_1_4.task_1.run();
+            Practicum_1_4.task_2.run();
+        }
+
+        static void run_practica_2()
+        {
+            Practicum_2_1.task_1.run();
+
         }
     }
 
