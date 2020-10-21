@@ -13,6 +13,8 @@ namespace main_namespace
             //Practicum_2.task_1.run();
             //Practicum_2.task_2.run();
             //Practicum_2.task_3.run();
+
+            Practicum_3.task_1.run();
         }
     }
 
