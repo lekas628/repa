@@ -7,10 +7,16 @@ namespace main_namespace
     {
         static void Main(string[] args)
         {
+            run();
+        }
+        static void run()
+        {
             //run_practica_1();
             //run_practica_2();
-            run_practica_3();
+            //run_practica_3();
+            //run_practica_4();
         }
+
 
         static void run_practica_1()
         {
@@ -53,6 +59,24 @@ namespace main_namespace
             Practicum_3_1.task_2.run();
             
             Practicum_3_2.task_1.run();
+        }
+        static void run_practica_4()
+        {
+            Practicum_4_1.task_1.run();
+            Practicum_4_2.task_1.run();
+            Practicum_4_2.task_2.run();
+            Practicum_4_3.task_1.run();
+            Practicum_4_4.task_1.run();
+            Practicum_4_5.task_1.run();
+
+        }
+        static void run_practica_5()
+        {
+            return;
+        }
+        static void run_practica_6()
+        {
+            return;
         }
     }
 
