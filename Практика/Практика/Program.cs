@@ -8,7 +8,8 @@ namespace main_namespace
         static void Main(string[] args)
         {
             //run_practica_1();
-            run_practica_2();
+            //run_practica_2();
+            run_practica_3();
         }
 
         static void run_practica_1()
@@ -25,7 +26,6 @@ namespace main_namespace
             Practicum_1_4.task_1.run();
             Practicum_1_4.task_2.run();
         }
-
         static void run_practica_2()
         {
             string path = @"C:\users\admin\Documents";
@@ -45,6 +45,14 @@ namespace main_namespace
 
             //Practicum_2_4.task_1.run();
             Practicum_2_4.task_2.run();
+        }
+        static void run_practica_3()
+        {
+            // С рег выражениями потом покопаюсь
+            Practicum_3_1.task_1.run();
+            Practicum_3_1.task_2.run();
+            
+            Practicum_3_2.task_1.run();
         }
     }
 
