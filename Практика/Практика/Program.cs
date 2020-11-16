@@ -7,6 +7,7 @@ namespace main_namespace
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("main run");
             run();
         }
         static void run()
@@ -15,6 +16,7 @@ namespace main_namespace
             //run_practica_2();
             //run_practica_3();
             //run_practica_4();
+            run_practica_5();
         }
 
 
@@ -72,7 +74,7 @@ namespace main_namespace
         }
         static void run_practica_5()
         {
-            return;
+            Practicum_5_1.task_1.run();
         }
         static void run_practica_6()
         {

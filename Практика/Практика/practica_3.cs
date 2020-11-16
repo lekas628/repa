@@ -29,12 +29,12 @@ namespace Practicum_3_2
         {
             string file = @"C:\users\admin\Documents\code\1\1.txt";
             string file_output = 
-                @"C:\users\admin\Documents\code\1\1-utf7.txt";
+                @"C:\users\admin\Documents\code\1\1-ASCII.txt";
 
             using(StreamReader sr = new StreamReader(file))
             {
                 using(StreamWriter sw = new StreamWriter(file_output,
-                    false, Encoding.UTF7))
+                    false, Encoding.ASCII))
                 {
                     sw.WriteLine(sr.ReadToEnd());
                 }
