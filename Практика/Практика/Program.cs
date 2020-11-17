@@ -16,7 +16,8 @@ namespace main_namespace
             //run_practica_2();
             //run_practica_3();
             //run_practica_4();
-            run_practica_5();
+            // run_practica_5();
+            run_practica_6();
         }
 
 
@@ -74,12 +75,12 @@ namespace main_namespace
         }
         static void run_practica_5()
         {
-            // Practicum_5_1.task_1_and_2.run();
+            Practicum_5_1.task_1_and_2.run();
             Practicum_5_2.task_1.run();
         }
         static void run_practica_6()
         {
-            return;
+            Practicum_6_1.task_1.run();
         }
     }
 
