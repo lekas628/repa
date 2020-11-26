@@ -19,7 +19,8 @@ namespace main_namespace
             // run_practica_5();
             // run_practica_6();
             // ../Practica_7
-            run_practica_8();
+            // run_practica_8();
+            // ../Practica_9
         }
 
 
@@ -92,7 +93,4 @@ namespace main_namespace
             Practicum_8_3.task_1.run();
         }
     }
-
-
-   
 }
