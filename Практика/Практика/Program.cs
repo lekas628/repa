@@ -88,6 +88,8 @@ namespace main_namespace
         static void run_practica_8()
         {
             Practicum_8_1.task_1.run();
+            Practicum_8_2.task_1.run();
+            Practicum_8_3.task_1.run();
         }
     }
 
